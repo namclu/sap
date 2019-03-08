@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.d(myTag, "onCreate")
         setContentView(R.layout.activity_main)
+        
     }
 
     fun onLogALine(view: View) {
